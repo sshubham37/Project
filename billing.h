@@ -1,3 +1,4 @@
+#define ITEMSZ 32
 
 typedef struct Item {
     char *name;
@@ -8,7 +9,12 @@ typedef struct Item {
 
 typedef struct Items {
     Item *itemList;
+
 } Items;
 
-
+typedef struct SearchResults {
+    Item *item;
+    int relevance; /*higher is better*/
+    struct SearchResults * next;
+} SearchResults;
 

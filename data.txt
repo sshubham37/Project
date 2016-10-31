@@ -1,6 +1,26 @@
 
-Acorn 
-Almond 
-Apple  
-Bambara-groundnut  
-
+Orange 10 20
+Almond 10 30
+Apple  10 40
+Groundnut 0 10
+Banana 10 10
+Barley 10 12
+Sugar 10 10
+Coffee 10 10
+Potato 10 50
+Bread  10 25
+Nut 10 10
+Nouget 10 70
+Wheat 10 10
+Carrot  10 20
+Cashew 10 10
+Salt 10 10
+Chesse  10 10
+Chana-dal 10 30
+Butter 10 15
+Peas 10 10
+Chocolates  12 12.5
+Flour   12 10
+Mayoneisse 10 50
+Sugar   10   5.0
+Yogurt  11  1
