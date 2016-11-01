@@ -17,7 +17,8 @@ Copyright (C) 2016 Shubham Singh sshubham37@ymail.com
  * Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
 */
 
------------------------------------------------- Customer Billing Project---------------------------------------------------------------------------------
+Customer Billing Project :
+
 DSA Project
 
 Name: Shubham Singh  
@@ -39,4 +40,4 @@ View Inventory before selecting new items.
 Use Arrow keys(Up and Down) to Navigate while viewing inventory and adding new items. Press Enter to Select any option. 
 
 /* Compile : Type "make". Then type "./project". */
---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+ 
