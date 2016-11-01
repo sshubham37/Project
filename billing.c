@@ -22,7 +22,6 @@ Copyright (C) 2016 Shubham Singh sshubham37@ymail.com
 #include <string.h>
 #include <ctype.h>
 #include <ncurses.h>
-#define ITEMSZ 32
 #include "billing.h"
 
 
@@ -160,8 +159,6 @@ void appendSearchResult(Item* item, int relevance) {  /*descending insertion sor
     return count;
 }
 
-#define NON_EDITABLE 0
-#define EDITABLE 1
 
 /*
   Displays a item selection window where in the user searches the items by typing and selects using arrow keys and enter
@@ -186,7 +183,7 @@ Item *chooseItem(Items *inv, int options, char* (*getString) (Item * itm, int se
         printw("%-*s", COLS, searchBoxContents);
         clrtobot();
 
-        //draw search results
+        /*draw search results*/
         color_set(1, NULL);
         SearchResults *sr = results;
         if (!sr) {
@@ -270,7 +267,7 @@ void updateResults() { /*Get new results*/
                 default:
                 {
                     if (i < 32 && isgraph(x)) {
-                        //append character
+                        
                         matchWith[i++] = x;
                         updateResults();
                     }
@@ -310,7 +307,7 @@ void billWindow() { /*Adding new items and checkout Window function*/
     } while (1);
 }
 
-/*Static options*/
+
 Item exitMenu = {"Exit", 3, 3, NULL};
 Item billMenu = {"New Bill", 2, 2, &exitMenu};
 Item viewInventoryMenu = {"View Inventory", 1, 1, &billMenu};

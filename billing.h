@@ -1,4 +1,5 @@
-#define ITEMSZ 32
+#define NON_EDITABLE 0
+#define EDITABLE 1
 
 typedef struct Item {
     char *name;
@@ -9,12 +10,11 @@ typedef struct Item {
 
 typedef struct Items {
     Item *itemList;
-
 } Items;
 
 typedef struct SearchResults {
     Item *item;
-    int relevance; /*higher is better*/
+    int relevance; 
     struct SearchResults * next;
 } SearchResults;
 

@@ -17,11 +17,12 @@ Copyright (C) 2016 Shubham Singh sshubham37@ymail.com
  * Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
 */
 
------------------------------------------------------------- Customer Billing Project---------------------------------------------------------------------------------
+------------------------------------------------ Customer Billing Project---------------------------------------------------------------------------------
 DSA Project
 
 Name: Shubham Singh  
 MIS: 111408056
+Branch: Information Technology
 
 The following Software is just a mini version for buying products and printing bills for a small grocery shop. The interface is built using ncurses.
 In the following software we can view Inventory which is actually the food items we have added in "data.txt" file.
@@ -29,7 +30,7 @@ In the following software we can view Inventory which is actually the food items
 It has entries in following manner:
 
 <Item name, %s> <quantity, %d> <cost, %f>
-where `%s`, `%d` and `%f` are scanf format specifiers. Item name does not have spaces. 
+where %s, %d and %f are scanf format specifiers. Item name does not have spaces. 
 We can edit the data from "data.txt" file.
 
 After viewing Inventory there is an option of "New Bill". When we press Enter, We can add new items in Bill from the inventory. We can add items by pressing enter on the food item we want. Also, there is an option of Search items on top where we can search items that we have entered or search items from inventory.  After adding all required food items, when we checkout the software calculates the total amount and prints the total bill at the left bottom corner. Then we can Exit.
